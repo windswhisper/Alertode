@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3952767761131060966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3675254815512420292}
+  - component: {fileID: 2879588079590728204}
+  m_Layer: 0
+  m_Name: Werewolf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3675254815512420292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3952767761131060966}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8554463506430160240}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2879588079590728204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3952767761131060966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f32b1b01c21695499b98b0114c43e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turret: {fileID: 0}
+  meshRendererList: []
+  skinnedMeshRendererList:
+  - {fileID: 8554463506418170970}
+  whiteStrength: 0
+  removeTime: 0
+  animator: {fileID: 8554463506422366874}
+  tailerWalk: []
+  tailerDive: []
+  isCaged: 0
+--- !u!1001 &4191306432640389849
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3675254815512420292}
+    m_Modifications:
+    - target: {fileID: 5520583845739368515, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0e99cbe9269fb0e4f9f1e6d94cc0d984, type: 2}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520583845748892553, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      propertyPath: m_Name
+      value: Werewolf
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5520583845748892553, guid: 94dd2061678f8a94caf477d694a3e473,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4434597222345501602}
+  m_SourcePrefab: {fileID: 100100000, guid: 94dd2061678f8a94caf477d694a3e473, type: 3}
+--- !u!137 &8554463506418170970 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5520583845743685251, guid: 94dd2061678f8a94caf477d694a3e473,
+    type: 3}
+  m_PrefabInstance: {fileID: 4191306432640389849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8554463506422366874 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5520583845739368515, guid: 94dd2061678f8a94caf477d694a3e473,
+    type: 3}
+  m_PrefabInstance: {fileID: 4191306432640389849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8554463506429669712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5520583845748892553, guid: 94dd2061678f8a94caf477d694a3e473,
+    type: 3}
+  m_PrefabInstance: {fileID: 4191306432640389849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4434597222345501602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554463506429669712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53d6818223224b41877715c15cf7b95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8554463506422366874}
+  speedRate: 1
+--- !u!4 &8554463506430160240 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5520583845748473769, guid: 94dd2061678f8a94caf477d694a3e473,
+    type: 3}
+  m_PrefabInstance: {fileID: 4191306432640389849}
+  m_PrefabAsset: {fileID: 0}

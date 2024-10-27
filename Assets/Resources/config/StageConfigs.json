@@ -1,0 +1,156 @@
+﻿{
+	"chapters":[
+		{
+			"id":0,
+			"uiName":"@Chapter.C01",
+			"stages":[
+				{
+					"id":0,
+					"uiName":"@Stage.S01",
+					"mapName":"m001"
+				},
+				{
+					"id":1,
+					"uiName":"@Stage.S02",
+					"mapName":"m002"
+				},
+				{
+					"id":2,
+					"uiName":"@Stage.S05",
+					"mapName":"m005"
+				}
+			]
+		},
+		{
+			"id":1,
+			"uiName":"@Chapter.C02",
+			"stages": [
+				{
+					"id": 0,
+					"uiName": "@Stage.S06",
+					"mapName": "m006"
+				},
+				{
+					"id": 1,
+					"uiName": "@Stage.S04",
+					"mapName": "m004"
+				},
+				{
+					"id": 2,
+					"uiName": "@Stage.S10",
+					"mapName": "m010"
+				},
+				{
+					"id": 3,
+					"uiName": "@Stage.S11",
+					"mapName": "m011"
+				},
+				{
+					"id": 4,
+					"uiName": "@Stage.S15",
+					"mapName": "m015"
+				},
+				{
+					"id": 5,
+					"uiName": "@Stage.S16",
+					"mapName": "m016"
+				},
+				{
+					"id": 6,
+					"uiName": "@Stage.S22",
+					"mapName": "m022"
+				},
+				{
+					"id": 7,
+					"uiName": "@Stage.S25",
+					"mapName": "m025"
+				}
+			]
+		},
+		{
+			"id":2,
+			"uiName":"@Chapter.C03",
+			"stages":[
+				{
+					"id":0,
+					"uiName":"@Stage.S07",
+					"mapName":"m007"
+				},
+				{
+					"id":1,
+					"uiName":"@Stage.S08",
+					"mapName":"m008"
+				},
+				{
+					"id":2,
+					"uiName":"@Stage.S12",
+					"mapName":"m012"
+				},
+				{
+					"id":3,
+					"uiName":"@Stage.S17",
+					"mapName":"m017"
+				},
+				{
+					"id":4,
+					"uiName":"@Stage.S20",
+					"mapName":"m020"
+				},
+				{
+					"id":5,
+					"uiName":"@Stage.S23",
+					"mapName":"m023"
+				},
+				{
+					"id":6,
+					"uiName":"@Stage.S24",
+					"mapName":"m024"
+				}
+			]
+		},
+		{
+			"id":3,
+			"uiName":"@Chapter.C04",
+			"stages":[
+				{
+					"id":0,
+					"uiName":"@Stage.S09",
+					"mapName":"m009"
+				},
+				{
+					"id":1,
+					"uiName":"@Stage.S13",
+					"mapName":"m013"
+				},
+				{
+					"id":2,
+					"uiName":"@Stage.S14",
+					"mapName":"m014"
+				},
+				{
+					"id":3,
+					"uiName":"@Stage.S18",
+					"mapName":"m018"
+				},
+				{
+					"id":4,
+					"uiName":"@Stage.S19",
+					"mapName":"m019"
+				},
+				{
+					"id":5,
+					"uiName":"@Stage.S21",
+					"mapName":"m021",
+					"isPBMode":true,
+					"enemyHpRate":100,
+					"enemyAtkRate":-50
+				},
+				{
+					"id":6,
+					"uiName":"@Stage.S26",
+					"mapName":"m026"
+				}
+			]
+		}
+	]
+}

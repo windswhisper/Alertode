@@ -1,0 +1,991 @@
+{
+	"datas": [
+		{
+			"name": "Cannon",
+			"className": "BaseWeapon",
+			"damage": 50,
+			"range": 400,
+			"fireSpeed": 80,
+			"muzzles": [
+				{
+					"x": 8,
+					"y": 36,
+					"z": 60
+				},
+				{
+					"x": -8,
+					"y": 36,
+					"z": 60
+				}
+			],
+			"muzzleFX": "MuzzleCannon",
+			"aimType": 0,
+			"bulletName": "CannonBall"
+		},
+		{
+			"name": "Gattling",
+			"className": "BaseWeapon",
+			"damage": 12,
+			"range": 450,
+			"fireSpeed": 600,
+			"scatterRadius": 10,
+			"muzzles": [
+				{
+					"x": 12,
+					"y": 46,
+					"z": 40
+				},
+				{
+					"x": -12,
+					"y": 46,
+					"z": 40
+				}
+			],
+			"muzzleFX": "MuzzleCannon",
+			"aimType": 0,
+			"bulletName": "GattBullet"
+		},
+		{
+			"name": "Missile",
+			"className": "BaseWeapon",
+			"damage": 25,
+			"range": 450,
+			"fireSpeed": 200,
+			"muzzles": [
+				{
+					"x": 18,
+					"y": 75,
+					"z": 32
+				},
+				{
+					"x": -18,
+					"y": 75,
+					"z": 32
+				}
+			],
+			"fireAngle": 50,
+			"muzzleFX": "",
+			"aimType": 1,
+			"bulletName": "MissileBullet"
+		},
+		{
+			"name": "Mortar",
+			"className": "BaseWeapon",
+			"damage": 150,
+			"range": 550,
+			"fireSpeed": 50,
+			"scatterRadius": 70,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 75,
+					"z": 40
+				}
+			],
+			"muzzleFX": "MuzzleMortar",
+			"aimType": 0,
+			"bulletName": "MortarBullet"
+		},
+		{
+			"name": "FlameThrower",
+			"className": "BaseWeapon",
+			"damage": 15,
+			"range": 250,
+			"fireSpeed": 400,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 40,
+					"z": 60
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "FlameBullet"
+		},
+		{
+			"name": "TeslaBolt",
+			"className": "BaseWeapon",
+			"damage": 120,
+			"range": 450,
+			"fireSpeed": 60,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 130,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "TeslaBullet"
+		},
+		{
+			"name": "BatSonic",
+			"className": "BaseWeapon",
+			"damage": 25,
+			"range": 210,
+			"fireSpeed": 80,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 30,
+					"z": 150
+				}
+			],
+			"fireAngle": 50,
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "SonicBullet"
+		},
+		{
+			"name": "MushWeapon",
+			"className": "BaseWeapon",
+			"damage": 40,
+			"range": 220,
+			"fireSpeed": 70,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 55,
+					"z": 60
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "MushBullet"
+		},
+		{
+			"name": "SunBlossomWeapon",
+			"className": "BaseWeapon",
+			"damage": 40,
+			"range": 150,
+			"fireSpeed": 80,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 55,
+					"z": 60
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "MushBullet"
+		},
+		{
+			"name": "SnakeletBite",
+			"className": "BaseWeapon",
+			"damage": 40,
+			"range": 70,
+			"fireSpeed": 120,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 26,
+					"z": 40
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "SnakeTeeth"
+		},
+		{
+			"name": "SnakeletBite2",
+			"className": "BaseWeapon",
+			"damage": 60,
+			"range": 70,
+			"fireSpeed": 90,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 26,
+					"z": 40
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "SnakeTeeth"
+		},
+		{
+			"name": "GunnerWeapon",
+			"className": "BaseWeapon",
+			"damage": 150,
+			"range": 450,
+			"fireSpeed": 100,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 66,
+					"z": 68
+				}
+			],
+			"muzzleFX": "MuzzleGunner",
+			"aimType": 0,
+			"bulletName": "GunnerBullet"
+		},
+		{
+			"name": "NailWeapon",
+			"className": "BaseWeapon",
+			"damage": 25,
+			"range": 40,
+			"fireSpeed": 100,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"areaFire": true,
+			"bulletName": "NailBullet"
+		},
+		{
+			"name": "CageWeapon",
+			"className": "WeaponCage",
+			"damage": 600,
+			"range": 25,
+			"fireSpeed": 10,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "NailBullet"
+		},
+		{
+			"name": "Sniper",
+			"className": "BaseWeapon",
+			"damage": 250,
+			"range": 600,
+			"fireSpeed": 25,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 68,
+					"z": 30
+				}
+			],
+			"muzzleFX": "MuzzleSniper",
+			"aimType": 0,
+			"bulletName": "SniperBullet"
+		},
+		{
+			"name": "ShadeWeapon",
+			"className": "BaseWeapon",
+			"damage": 75,
+			"range": 70,
+			"fireSpeed": 150,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "SnakeTeeth"
+		},
+		{
+			"name": "WolfWeapon",
+			"className": "BaseWeapon",
+			"damage": 80,
+			"range": 100,
+			"fireSpeed": 150,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "SnakeTeeth"
+		},
+		{
+			"name": "ShadowGuardWeapon",
+			"className": "BaseWeapon",
+			"damage": 600,
+			"range": 90,
+			"fireSpeed": 100,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "SnakeTeeth"
+		},
+		{
+			"name": "GolemWeapon",
+			"className": "BaseWeapon",
+			"damage": 80,
+			"range": 70,
+			"fireSpeed": 50,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "GolemPunch"
+		},
+		{
+			"name": "DragonFireball",
+			"className": "BaseWeapon",
+			"damage": 50,
+			"range": 280,
+			"fireSpeed": 70,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 30,
+					"z": 150
+				}
+			],
+			"fireAngle": -45,
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "BulletDragon"
+		},
+		{
+			"name": "GaussWeapon",
+			"className": "BaseWeapon",
+			"damage": 200,
+			"range": 550,
+			"fireSpeed": 40,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 50,
+					"z": 60
+				}
+			],
+			"muzzleFX": "MuzzleGauss",
+			"aimType": 0,
+			"bulletName": "GaussBullet"
+		},
+		{
+			"name": "PlasmaWeapon",
+			"className": "BaseWeapon",
+			"damage": 75,
+			"range": 400,
+			"fireSpeed": 60,
+			"fireAngle": 30,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 55,
+					"z": 30
+				}
+			],
+			"muzzleFX": "PlasmaMuzzle",
+			"aimType": 0,
+			"bulletName": "PlasmaBullet"
+		},
+		{
+			"name": "PlasmaWeaponAA",
+			"className": "BaseWeapon",
+			"damage": 75,
+			"range": 400,
+			"fireSpeed": 60,
+			"fireAngle": 30,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 55,
+					"z": 30
+				}
+			],
+			"muzzleFX": "PlasmaMuzzle",
+			"aimType": 1,
+			"bulletName": "PlasmaBullet"
+		},
+		{
+			"name": "LaserWeapon",
+			"className": "BaseWeapon",
+			"damage": 75,
+			"range": 450,
+			"fireSpeed": 150,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 70,
+					"z": 35
+				}
+			],
+			"muzzleFX": "LaserMuzzle",
+			"aimType": 1,
+			"bulletName": "LaserBullet"
+		},
+		{
+			"name": "LunarWeapon",
+			"className": "BaseWeapon",
+			"damage": 180,
+			"range": 450,
+			"fireSpeed": 60,
+			"fireAngle": 20,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 140,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "LunarBullet"
+		},
+		{
+			"name": "SolarWeapon",
+			"className": "BaseWeapon",
+			"damage": 360,
+			"range": 450,
+			"fireSpeed": 25,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 140,
+					"z": 20
+				}
+			],
+			"muzzleFX": "MuzzleSolar",
+			"aimType": 0,
+			"bulletName": "SolarLaser"
+		},
+		{
+			"name": "SnowCatapult",
+			"className": "BaseWeapon",
+			"damage": 40,
+			"range": 500,
+			"fireSpeed": 40,
+			"scatterRadius": 60,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 90,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "SnowBall"
+		},
+		{
+			"name": "BaserkerWeapon",
+			"className": "BaseWeapon",
+			"damage": 250,
+			"range": 120,
+			"fireSpeed": 100,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 26,
+					"z": 40
+				}
+			],
+			"muzzleFX": "MuzzleBaserker",
+			"aimType": 0,
+			"bulletName": "BaserkerSlash"
+		},
+		{
+			"name": "BuilderWeapon",
+			"className": "BaseWeapon",
+			"damage": 200,
+			"range": 120,
+			"fireSpeed": 90,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 26,
+					"z": 40
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "HammerSwing"
+		},
+		{
+			"name": "CactusWeapon",
+			"className": "BaseWeapon",
+			"damage": 60,
+			"range": 250,
+			"fireSpeed": 60,
+			"scatterRadius": 50,
+			"muzzles": [
+				{
+					"x": 23,
+					"y": 66,
+					"z": 30
+				},
+				{
+					"x": -23,
+					"y": 66,
+					"z": 30
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "CactusBullet"
+		},
+		{
+			"name": "VampireSonic",
+			"className": "BaseWeapon",
+			"damage": 100,
+			"range": 180,
+			"fireSpeed": 40,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 30,
+					"z": 80
+				}
+			],
+			"fireAngle": 50,
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "VampireBullet"
+		},
+		{
+			"name": "PhantomWeapon",
+			"className": "BaseWeapon",
+			"damage": 100,
+			"range": 300,
+			"fireSpeed": 40,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 80,
+					"z": 80
+				}
+			],
+			"fireAngle": 0,
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "PhantomBullet"
+		},
+		{
+			"name": "GiantDragonWeapon",
+			"className": "BaseWeapon",
+			"damage": 120,
+			"range": 350,
+			"fireSpeed": 70,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 70,
+					"z": 190
+				}
+			],
+			"fireAngle": 0,
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "BulletDragonStraight",
+			"scatterRadius": 200
+		},
+		{
+			"name": "MageWeapon",
+			"className": "BaseWeapon",
+			"damage": 100,
+			"range": 450,
+			"fireSpeed": 80,
+			"fireAngle": 20,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 60,
+					"z": 60
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "MageBullet"
+		},
+		{
+			"name": "IceGolemWeapon",
+			"className": "BaseWeapon",
+			"damage": 120,
+			"range": 70,
+			"fireSpeed": 90,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "SnakeTeeth"
+		},
+		{
+			"name": "TrapWeapon",
+			"className": "WeaponTrap",
+			"damage": 150,
+			"range": 5,
+			"fireSpeed": 10,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"areaFire": true,
+			"bulletName": "TrapBullet"
+		},
+		{
+			"name": "ShotGunWeapon",
+			"className": "BaseWeapon",
+			"damage": 40,
+			"range": 300,
+			"fireSpeed": 60,
+			"scatterRadius": 30,
+			"muzzles": [
+				{
+					"x": 10,
+					"y": 46,
+					"z": 40
+				},
+				{
+					"x": -10,
+					"y": 46,
+					"z": 40
+				}
+			],
+			"muzzleFX": "MuzzleShotgun",
+			"aimType": 0,
+			"bulletName": "ShotGunBullet"
+		},
+		{
+			"name": "PrismWeapon",
+			"className": "WeaponPrismMain",
+			"damage": 200,
+			"range": 450,
+			"fireSpeed": 60,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 140,
+					"z": 25
+				}
+			],
+			"muzzleFX": "LaserMuzzle",
+			"aimType": 0,
+			"bulletName": "PrismBullet"
+		},
+		{
+			"name": "PrismSupportWeapon",
+			"className": "WeaponPrismSupport",
+			"damage": 200,
+			"range": 450,
+			"fireSpeed": 60,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 140,
+					"z": 25
+				}
+			],
+			"muzzleFX": "LaserMuzzle",
+			"aimType": 0,
+			"bulletName": "PrismSupportBullet"
+		},
+		{
+			"name": "WerewolfWeapon",
+			"className": "BaseWeapon",
+			"damage": 300,
+			"range": 70,
+			"fireSpeed": 120,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 60,
+					"z": 60
+				}
+			],
+			"muzzleFX": "MuzzleWerewolf",
+			"aimType": 0,
+			"bulletName": "BaserkerSlash"
+		},
+		{
+			"name": "NukeWeapon",
+			"className": "BaseWeapon",
+			"damage": 3000,
+			"range": 0,
+			"fireSpeed": 10,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "NukeMissile"
+		},
+		{
+			"name": "FireGolemWeapon",
+			"className": "BaseWeapon",
+			"damage": 100,
+			"range": 100,
+			"fireSpeed": 40,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"areaFire": true,
+			"bulletName": "FireGolemSpin"
+		},
+		{
+			"name": "DuskDragonDash",
+			"className": "WeaponDashSuicide",
+			"damage": 100,
+			"range": 250,
+			"fireSpeed": 100,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "DuskDragonBomb"
+		},
+		{
+			"name": "ReaperWeapon",
+			"className": "BaseWeapon",
+			"damage": 80,
+			"range": 120,
+			"fireSpeed": 60,
+			"scatterRadius": 10,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 80,
+					"z": 80
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "ReaperBullet"
+		},
+		{
+			"name": "HammerWeapon",
+			"className": "BaseWeapon",
+			"damage": 200,
+			"range": 150,
+			"fireSpeed": 25,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 3,
+			"areaFire": true,
+			"bulletName": "GolemPunch"
+		},
+		{
+			"name": "RobotWeapon",
+			"className": "BaseWeapon",
+			"damage": 60,
+			"range": 400,
+			"fireSpeed": 300,
+			"muzzles": [
+				{
+					"x": 35,
+					"y": 80,
+					"z": 75
+				},
+				{
+					"x": -35,
+					"y": 80,
+					"z": 75
+				}
+			],
+			"muzzleFX": "MuzzleCannon",
+			"aimType": 0,
+			"bulletName": "CannonBall"
+		},
+		{
+			"name": "WraithKingWeapon",
+			"className": "BaseWeapon",
+			"damage": 120,
+			"range": 300,
+			"fireSpeed": 60,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 90,
+					"z": 20
+				}
+			],
+			"fireAngle": 0,
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "BulletDragonStraight",
+			"scatterRadius": 150
+		},
+		{
+			"name": "NavalMineWeapon",
+			"className": "BaseWeapon",
+			"damage": 1000,
+			"range": 40,
+			"fireSpeed": 10,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 90,
+					"z": 20
+				}
+			],
+			"fireAngle": 0,
+			"muzzleFX": "",
+			"areaFire": true,
+			"aimType": 4,
+			"bulletName": "BulletNavalMine"
+		},
+		{
+			"name": "NavalBomberWeapon",
+			"className": "BaseWeapon",
+			"damage": 90,
+			"range": 450,
+			"fireSpeed": 80,
+			"scatterRadius": 20,
+			"muzzles": [
+				{
+					"x": 28,
+					"y": 130,
+					"z": 25
+				},
+				{
+					"x": -28,
+					"y": 130,
+					"z": 25
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 4,
+			"bulletName": "NavalBomb"
+		},
+		{
+			"name": "NavalBomberWeaponAG",
+			"className": "BaseWeapon",
+			"damage": 90,
+			"range": 450,
+			"fireSpeed": 80,
+			"scatterRadius": 20,
+			"muzzles": [
+				{
+					"x": 28,
+					"y": 130,
+					"z": 20
+				},
+				{
+					"x": -28,
+					"y": 130,
+					"z": 20
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "NavalBombAG"
+		},
+		{
+			"name": "SonicWeapon",
+			"className": "BaseWeapon",
+			"damage": 80,
+			"range": 400,
+			"fireSpeed": 40,
+			"scatterRadius": 0,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 50,
+					"z": 30
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 3,
+			"bulletName": "SonicWave"
+		},
+		{
+			"name": "WormWeapon",
+			"className": "BaseWeapon",
+			"damage": 80,
+			"range": 260,
+			"fireSpeed": 70,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 85,
+					"z": 60
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "WormBullet"
+		},
+		{
+			"name": "WormQueenWeapon",
+			"className": "BaseWeapon",
+			"damage": 200,
+			"range": 400,
+			"fireSpeed": 60,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 130,
+					"z": 60
+				}
+			],
+			"muzzleFX": "",
+			"aimType": 0,
+			"bulletName": "WormQueenBullet"
+		},
+		{
+			"name": "UAVGun",
+			"className": "BaseWeapon",
+			"damage": 40,
+			"range": 300,
+			"fireSpeed": 200,
+			"muzzles": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 48
+				}
+			],
+			"fireAngle": 0,
+			"muzzleFX": "",
+			"aimType": 2,
+			"bulletName": "BulletUAV"
+		}
+	]
+}

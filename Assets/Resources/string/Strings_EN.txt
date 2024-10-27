@@ -1,0 +1,507 @@
+@Buff.Slow,Slow
+@Buff.Poison,Poisoning
+@Buff.Armor,Shield
+@Buff.FireSpeed,Attack Speed
+@Buff.Range,Range
+@Buff.Slow_Desc,Attack speed - {0}%, movement speed - {0}%
+@Buff.Poison_Desc,Lose {0} HP per second
+@Buff.Armor_Desc,Injury reduction {0}%
+@Buff.FireSpeed_Desc,Attack speed+{0}%
+@Buff.Range_Desc,Range+{0}%
+@Chip.FireSpeed,Attack speed
+@Chip.FireSpeedZ,Extreme speed
+@Chip.Damage,Fire Power
+@Chip.DamageZ,Heavy
+@Chip.Strength,Strength
+@Chip.Range,Range
+@Chip.RangeZ,Eagle's eye
+@Chip.Enlarge,Enlarge
+@Chip.Pierce,Penetration
+@Chip.Blossom,Scattering
+@Chip.Frost,Frost
+@Chip.Poison,Venom
+@Chip.Split,Division
+@Chip.Repair,Repair
+@Chip.Purify,Refine
+@Chip.Value,Value
+@Chip.Geming,Diamond
+@Chip.Cheap,Discount
+@Chip.FreeOnce,Gift
+@Chip.Double,Double
+@Chip.Chain,Chain
+@Chip.Fatal,Armor Piercing
+@Chip.Reflect,Reflex
+@Chip.Heat,Burst
+@Chip.AllPower,All-round
+@Chip.Explosion,Explosion
+@Chip.StrongKiller,Challenge
+@Chip.WeakKiller,Harvest
+@Chip.SickKiller,Malice
+@Chip.RangeKiller,Sniper
+@Chip.RangeArmor,Intercept
+@Chip.MeleeArmor,Block
+@Chip.Fury,Fury
+@Chip.FireSpeedRing,Attack Speed Aura
+@Chip.RangeRing,Range Aura
+@Chip.RepairRing,Healing Aura
+@Chip.ArmorRing,Armor Aura
+@Chip.Electricity,Electric
+@Chip.Reborn,Rebirth
+@Chip.Sacrifice,Sacrifice
+@Chip.Clear,Clear
+@Chip.SunFlame,Corona
+@Chip.GlowUp,Grow Up
+@Chip.Teleport,Transfer
+@Chip.AntiAir,Anti-Air
+@Chip.Crit,Critical Hit
+@Chip.BountyChip,Bounty
+@Chip.Oil,Gasoline
+@Chip.Stun,Stun
+@Chip.Union,Union
+@Chip.Lens,Lens
+@Chip.Ejection,Ejection
+@Chip.Cheer,Cheer
+@Chip.Swallow,Devouring
+@Chip.Bounty,Bounty
+@Chip.DamageTraining,Firepower Training
+@Chip.Execute,Execution
+@Chip.Revenge,Revenge
+@Chip.Lucky,Lucky
+@Chip.Drain,Vampire
+@Chip.ManaDrain,Drain Mane
+@Chip.Stolen,Stolen
+@Chip.LearnBlizzard,Learn Blizzard
+@Chip.LearnFinalExp,Learn Ultimate Explosion
+@Chip.Expert,Expert
+@Chip.Patch,Patch
+@Chip.Nanometre,Nanotechnology
+@Chip.FireSpeed_Desc,Attack speed+{0}%
+@Chip.Damage_Desc,Attack+{0}%
+@Chip.Strength_Desc,Maximum HP+{0}%
+@Chip.Range_Desc,Range+{0}%
+@Chip.Enlarge_Desc,Bullet volume+{0}%, attack+{1}%
+@Chip.FireSpeedZ_Desc,Attack speed+{0}%, attack -{1}%
+@Chip.DamageZ_Desc,Attack power+{0}%, range -{1}%
+@Chip.RangeZ_Desc,Range+{0}%, attack speed -{1}%, attack+{2}%
+@Chip.Pierce_Desc,Bullet penetration+{0}
+@Chip.Blossom_Desc,Attack power - {1}%, firing an additional {0} bullets per shot
+@Chip.Frost_Desc,When a weapon hits, there is a {0}% chance to slow down the target's attack speed and movement speed, lasting {3:H} seconds
+@Chip.Frost2_Desc,When a weapon hits, there is a {0}% chance to slow down the target's attack speed and movement speed, lasting {3:H} seconds, much slower
+@Chip.Poison_Desc,When a weapon hits, there is a {0}% chance that the target will continuously lose health, lasting {3:H} seconds, and can stack {2} layers
+@Chip.Swallow_Desc,Get {0} maximum HP for every enemy eliminated
+@Chip.Swallow_Record,Received HP: {0}
+@Chip.Split_Desc,When a bullet explodes, it will split into {0} small bullets, causing {1}% damage
+@Chip.Repair_Desc,Restore {1}% of maximum HP every {0} seconds
+@Chip.Purify_Desc,Basic output of gold coins+{0}
+@Chip.Value_Desc,Gold coin income+{0}%
+@Chip.Geming_Desc,Produce {0} diamonds at the end of each round
+@Chip.Cheap_Desc,Purchase price - {0}%
+@Chip.FreeOnce_Desc,Free construction {0} times
+@Chip.Double_Desc,Attack with an additional {0} consecutive shots, attack power - {1}%
+@Chip.Chain_Desc,Lightning additional ejection {0} times
+@Chip.Fatal_Desc,When a weapon hits, there is a {0}% chance to increase target damage by {1}%, lasting {2:H} seconds
+@Chip.Reflect_Desc,When attacked, deal {0}% equal damage to the attacker
+@Chip.Heat_Desc,When eliminating an enemy, trigger an explosion, causing {0}% of their maximum HP damage
+@Chip.AllPower_Desc,Maximum HP+{0}%, attack+{1}%, attack speed+{2}%, purchase price+{3}%
+@Chip.Explosion_Desc,When destroyed, self destruct, causing {0}% of maximum HP damage to oneself
+@Chip.StrongKiller_Desc,When attacking enemies with HP greater than {0}%, deal an additional {1}% of damage
+@Chip.WeakKiller_Desc,When attacking enemies with HP less than {0}%, deal an additional {1}% of damage
+@Chip.SickKiller_Desc,When attacking enemies with negative states, deal an additional {0}% damage
+@Chip.RangeKiller_Desc,When attacking enemies in the distance, deal an additional {0}% damage for every 1 grid apart
+@Chip.RangeArmor_Desc,Gain {0}% damage reduction and an additional {1}% when fighting against distant enemies
+@Chip.MeleeArmor_Desc,Gain {0}% damage reduction and an additional {1}% when fighting against neighboring enemies
+@Chip.Fury_Desc,When HP is below {0}%, attack+{1}%
+@Chip.Crit_Desc,Each attack has a {0}% chance of critical strike, dealing an additional {1}% damage
+@Chip.FireSpeedRing_Desc,Enable allies within {1:H} grid to gain+{0}% attack speed
+@Chip.RangeRing_Desc,Enable allies within {1:H} grid to gain+{0}% range
+@Chip.RepairRing_Desc,Every {0} second, restore {1}% of maximum HP to allies within {2:H} cells
+@Chip.ArmorRing_Desc,Enable allies within the {1:H} grid to receive {0}% damage reduction
+@Chip.Reborn_Desc,Rebirth immediately upon elimination, restoring {0}% of maximum HP, effective once per turn
+@Chip.Sacrifice_Desc,When eliminated, release a healing wave to restore nearby allies {0}% of self maximum HP
+@Chip.SunFlame_Desc,Ignite nearby enemies and deal {0}% of their maximum HP damage every {1:H} second
+@Chip.Clear_Desc,Range+{0}%, if there are no other defense towers nearby, gain+{1}% attack speed
+@Chip.Electricity_Desc,Regularly recharge a nearby friendly, causing an additional {0} damage when their weapon hits
+@Chip.Oil_Desc,When a cannonball explodes, there is a {0}% chance to leave a burning flame on the ground, dealing {2}% weapon attack damage within {1:H} seconds
+@Chip.Stun_Desc,There is a {0}% chance to stun the target for {1:H} seconds when weapon attacks
+@Chip.Union_Desc,For every adjacent building with the same name, receive {0}% injury reduction
+@Chip.Lens_Desc,Connected to other prism towers on a straight line to establish an energy enhancing light curtain, which increases the size of friendly bullets passing by and increases their damage by {1}%
+@Chip.Ejection_Desc,After modification, can lock and attack enemies on the ground
+@Chip.Cheer_Desc,Play uplifting music to grant+{0}% attack speed to friendly forces that sound waves pass through
+@Chip.GlowUp_Desc,At each upgrade, gain {0}% maximum HP and {1}% attack speed
+@Chip.GlowUp_Record,Current bonus: {0}% maximum HP, {1}% attack speed
+@Chip.Teleport_Desc,Every {0} second, teleport a nearby enemy to a random location in the distance
+@Chip.AntiAir_Desc,Weapons have become capable of attacking flying enemies
+@Chip.Bounty_Desc,Get ${0} for every enemy eliminated
+@Chip.Bounty_Record,Bounty received: {0}
+@Chip.DamageTraining_Desc,For every {0} enemy eliminated, permanently gain+{1}% attack power
+@Chip.DamageTraining_Record,Current bonus: {0}% attack power
+@Chip.Execute_Desc,Attacks will directly eliminate enemies with HP below {0}%
+@Chip.Revenge_Desc,After taking damage, gain+{0}% attack speed for {1:H} seconds
+@Chip.Drain_Desc,When causing damage, self recovers HP equal to {0}% damage 
+@Chip.ManeDrain_Desc,Eliminating each enemy will cause a cooldown of - {0} seconds for all skills
+@Chip.LearnBlizzard_Desc,Learn the skill Blizzard to freeze and slow down large areas of enemies
+@Chip.LearnFinalExp_Desc,Learn the skill 'Ultimate Explosion' to deal massive damage to all enemies
+@Chip.ManaDrain_Desc,Eliminating each enemy will cause a cooldown of - {0} seconds for all skills
+@Chip.Expert_Desc,When building a new building, {0}% chance to directly upgrade it to level 2
+@Chip.Expert_Record,Upgrade times：{0}
+@Chip.Patch_Desc,When upgrading a building, repair it completely and gain significant enhancement in a short period of time
+@Chip.Nanometre_Desc,All buildings receive automatic repair, restoring {0}% of maximum health per second
+@Chip.Stolen_Desc,Each attack has a {0}% chance of obtaining ${1}
+@Building.Base,Base
+@Building.Cannon,Auto Cannon
+@Building.Miner,Mine
+@Building.Barriers,Barrier
+@Building.Gatt,Gattling
+@Building.Mort,Mortar
+@Building.Misl,Missile
+@Building.Flame,Flame Tower
+@Building.Tesla,Tesla Tower
+@Building.Nail,Spike Trap
+@Building.Snipe,Sniper Tower
+@Building.Gauss,Gauss Cannon
+@Building.Plasma,Plasma Cannon
+@Building.Laser,AA Laser Gun
+@Building.Snow,Snowball Catapult
+@Building.Cage,Capture Trap
+@Building.Trap,Clamp trap
+@Building.Shield,Shield Tower
+@Building.Rock,Rolling Stone
+@Building.Prism,Prism Tower
+@Building.ShotGun,Shot Gun
+@Building.Sonic,Sonic Tower
+@Building.Poison,Gas Trap
+@Building.Lunar,Lunar Pillar
+@Building.Solar,Solar Pillar
+@Building.MineCannon,Ore Cannon
+@Building.Nuke,ICBM
+@Building.Hammer,Hammer
+@Building.Robot,Guardian Mech
+@Building.NavalMine,Naval Mine
+@Building.NavalBomber,Naval Bomber
+@Building.Obelisk,Ancient Stele
+@Building.Base_Desc,Protect every base of yours, once the base is destroyed, the mission will fail
+@Building.Cannon_Desc,A cheap and practical defense tower that can deal with most small monsters
+@Building.Miner_Desc,Placed on a vein, it can continuously produce coins
+@Building.Barriers_Desc,Placed on the path to intercept enemies
+@Building.Gatt_Desc,A fast shooting weapon that works well against low-level monsters
+@Building.Mort_Desc,Deals range damage to enemies in the distance, but has a low hit rate
+@Building.Misl_Desc,Launch tracking missiles specifically designed to attack flying enemies
+@Building.Flame_Desc,Causing damage to large areas of enemies, but with a short range
+@Building.Tesla_Desc,Can attack 3 enemies at once, causing significant damage
+@Building.Nail_Desc,Place on the path and deal minor damage to passing enemies
+@Building.Snipe_Desc,Extremely long range, causing high damage to individual targets
+@Building.Gauss_Desc,Using electromagnetic tracks to accelerate bullets, possessing super penetrating and destructive power
+@Building.Plasma_Desc,Launch a tracking plasma ball to attack enemies in the air and on the ground
+@Building.Laser_Desc,Launch high-temperature laser to melt any enemy in the air
+@Building.Snow_Desc,Throwing a snowball causes a brief deceleration to the enemy, with a chance to cause freezing
+@Building.Cage_Desc,Capture low health enemies and convert them into coins
+@Building.Trap_Desc,Pinch the enemy passing by, making them temporarily unable to move
+@Building.Shield_Desc,Establish an energy shield to reduce damage from the direction of the shield
+@Building.Rock_Desc,Placed on the path, it can intercept enemies and roll forward to deal damage to a row of enemies when destroyed
+@Building.Sonic_Desc,Emit sound waves and deal damage to large areas of enemies
+@Building.Poison_Desc,Place on the path and spray poison gas when enemies pass by
+@Building.Lunar_Desc,Periodically restore health to nearby allies and launch energy missiles capable of air defense
+@Building.Solar_Desc,Gain damage bonus to nearby allies, and also shoot high-temperature beams to attack enemies in a straight line
+@Building.MineCannon_Desc,Placed on the ore, firing powerful shells, earning money with each attack
+@Building.ShotGun_Desc,Shooting multiple bullets at once, but with a low hit rate
+@Building.Prism_Desc,Emit energy laser and deal high damage to individual enemies
+@Building.Nuke_Desc,Manually launch a nuclear missile to any location on the battlefield
+@Building.Hammer_Desc,Can hammer the ground to emit seismic waves, causing damage to surrounding enemies
+@Building.Robot_Desc,A solid and reliable walking mech that can be moved to other positions for support after being fully charged
+@Building.NavalMine_Desc,Placed on the water surface, exploding upon enemy contact, redeployed after each wave ends
+@Building.NavalBomber_Desc,Placed on the water, it can attack enemies in the water
+@UtmSkill.BulletTornado,Bullet Storm
+@UtmSkill.BulletTornado_desc,Instantly firing a large number of bullets, attacking enemies within the fan-shaped area
+@UtmSkill.CrushEarth,Earth collapse
+@UtmSkill.CrushEarth_desc,Leap into the enemy group with a powerful force, causing significant damage and dizziness to the enemy
+@UtmSkill.LightningStrike,Thunder
+@UtmSkill.LightningStrike_desc,Summon several thunderbolts to strike low health enemies
+@UtmSkill.Blizzard,Blizzard
+@UtmSkill.Blizzard_desc,Summon a blizzard to freeze and slow down large areas of enemies
+@UtmSkill.FinalExplosion,Ultimate Explosion
+@UtmSkill.FinalExplosion_desc,Exhausting all magic to trigger the ultimate explosion, dealing massive damage to all enemies
+@UtmSkill.OverClocking,Over Clocking
+@UtmSkill.OverClocking_desc,Repair several nearby buildings and strengthen them in a short period of time
+@Tile.Dirt,earth
+@Tile.Bridge,bridge
+@MapObj.Base,base
+@MapObj.Ore,mineral
+@MapObj.Wall,wall
+@MapObj.Flower,flower
+@Monster.Snakelet,Little Snake
+@Monster.Spider,spider
+@Monster.Snake,Venomous snake
+@Monster.Bat,Little Bat
+@Monster.Shell,Hermit crab
+@Monster.Mush,Mushroom Man
+@Monster.SunBlossom,Sunflower
+@Monster.Shade,Shadow Man
+@Monster.Bomb,Bomberman
+@Monster.PoisonBomb,Poison Bomber
+@Monster.Dragon,Little Fire Dragon
+@Monster.Golem,Colossus
+@Monster.Scorpling,scorpion
+@Monster.Vampire,Vampire bats
+@Monster.Cactus,Mutated Cactus
+@Monster.ShadowGuard,Shadow Guard
+@Monster.ScorpionKing,Scorpion Pharaoh
+@Monster.GiantDragon,Fire Dragon
+@Monster.Werewolf,Wolf King
+@Monster.WraithKing,Wraith King
+@Monster.Snakelet_Desc,Fragile small animals that know how to swim
+@Monster.Spider_Desc,Strong jumping ability, able to cross obstacles
+@Monster.Snake_Desc,Sharp teeth can inject deadly venom into prey and learn how to swim
+@Monster.Bat_Desc,Fragile little animals that know how to fly
+@Monster.Shell_Desc,Wearing a thick shell that can withstand small bullets and knows how to swim
+@Monster.Mush_Desc,Slow movement, launching spores to attack target
+@Monster.SunBlossom_Desc,Floating forward, it will slowly heal nearby allies
+@Monster.Shade_Desc,The demon tribe from underground, with strong bodies, knows how to swim
+@Monster.Bomb_Desc,A flexible mobile bomb that explodes upon death
+@Monster.PoisonBomb_Desc,Detonating gas bombs upon death, poisoning surrounding enemies
+@Monster.Dragon_Desc,Launch fireballs to attack targets, know how to fly
+@Monster.Golem_Desc,Unbreakable, with infinite force, every move and gesture can trigger an earthquake
+@Monster.ShadowGuard_Desc,The advanced warrior of the Shadow Man Legion has amazing defense and can roar to stun a large area of enemies
+@Monster.Scorpling_Desc,Undercover underground and launch a surprise attack after approaching the enemy
+@Monster.Vampire_Desc,Enemies slightly stronger than bats can absorb the target's life when attacking
+@Monster.Cactus_Desc,Slow movement, firing multiple spikes at once to attack the target
+@Monster.ScorpionKing_Desc,Demons from ancient ruins who know how to use magic to summon sandstorms and lead the Scorpion Legion skilled in raids
+@Monster.GiantDragon_Desc,Legendary creatures with powerful power and flames
+@Hero.Gunner,Fio
+@Hero.Gunner_Title,Bounty Hunter\n
+@Hero.Gunner_Desc,"Fio is a mercenary from the family of explorers, active in the exploration of mysterious relics around the world."
+@Hero.Baserker,Veronica
+@Hero.Baserker_Title,Berserker\n
+@Hero.Baserker_Desc,"Warrior Veronica is always on the front line of the battlefield, wielding huge weapons and mercilessly crushing any enemy."
+@Hero.Mage,Kula
+@Hero.Mage_Title,Magic Apprentice\n
+@Hero.Mage_Desc,"Kula is a young apprentice from the School of Witchcraft and Wizardry, seemingly unaware of her astonishing magical talent."
+@Hero.Builder,Dell
+@Hero.Builder_Title,Engineer\n
+@Hero.Builder_Desc,Dell is the best engineer of the new generation, proficient in machinery and computers. Dell is friend with Fio, so she also joined the team to explore together.
+@UI.Alertode,Cubic Defender
+@UI.TapToPlay,Tap to play
+@UI.Loading,Loading...
+@UI.Start,Campaign
+@UI.Survive,Survive
+@UI.Setting,Setting
+@UI.Achievement,Achievement
+@UI.QuickKey,Keyboard
+@UI.GiftCode,Gift Code
+@UI.EnterGiftCode,Enter Code Here...
+@UI.GiftCodeUsed,This code has been redeem
+@UI.GiftCodeWrong,The code is wrong
+@UI.GiftCodeNoMore,Gift runs out
+@UI.GiftCodeError,Error: 
+@UI.Redeem,Redeem
+@UI.DataExport,User Data
+@UI.CompleteGuideToUnlck,Complete tutorial to unlock
+@UI.Shop,Shop
+@UI.Quit,Quit
+@UI.ConfirmQuit,Click again to quit
+@UI.Music,Music
+@UI.Sound,Sound
+@UI.Language,Language
+@UI.EffectLevel,FX Level
+@UI.Low,Low
+@UI.Medium,Medium
+@UI.High,High
+@UI.VeryHigh,Ultra
+@UI.Done,Done
+@UI.SelectStage,Select Stage
+@UI.TotalWave,{0} Wave
+@UI.Fog,Fog
+@UI.BOSS,BOSS
+@UI.BuildPath,Build Path
+@UI.ModeClassical,Classic mode
+@UI.ModeGacha,Evolution mode
+@UI.ModeChaos,Chaotic mode
+@UI.ClassicalDesc,Regular battles allow for free combination of towers
+@UI.GachaDesc,Defense towers and upgrade routes will be randomly unlocked during battles
+@UI.ChaosDesc,Defense towers, upgrade routes, and enemies are all random
+@UI.Difficult,Difficulty: {0}/{1}
+@UI.DifficultDesc00,No special modifications
+@UI.DifficultDesc01,Enemy health & attack increased by 30%
+@UI.DifficultDesc02,Tower cost increased by 20%
+@UI.DifficultDesc03,Enemy count increased by 40%
+@UI.DifficultInGame,Difficulty {0}\n
+@UI.MyHero,Heroes
+@UI.MyTeam,My team
+@UI.BattleTeam,Battle Team
+@UI.AllTeam,Collection
+@UI.EnterBattle,Select
+@UI.RemoveBattle,Remove
+@UI.SurviveEvo,Survivor
+@UI.SurviveEvo_Desc,· Similar to the evolution mode gameplay, buildings and chips will be randomly unlocked in the game. \n· A map will be randomly generated in each play, and the map area will gradually expand as the game progresses. \n· The number and attributes of enemies will increase and enhance with each wave, and a boss will appear every 10 waves
+@UI.FieldRunner,Stand Ground
+@UI.FieldRunner_Desc,· The enemy will only attack your base, use your defense tower to design a longer path for the enemy. \n· Similar to the evolution mode gameplay, buildings and chips will be randomly unlocked in the game. \n· A map will be randomly generated in each play, and the map area will gradually expand as the game progresses. 
+@UI.ModeDesc,Mode Info
+@UI.HighScoreWave,Best Record: {0} Wave
+@UI.Wave,Wave {0}/{1}
+@UI.Wave2,Wave {0}
+@UI.DefendSucceed,Defense Successful
+@UI.UnlockChip,Unlock Chip
+@UI.Unlock,Unlock
+@UI.ChooseChip,Select Chip
+@UI.Choose,Choose
+@UI.MyChips,Chip backpack
+@UI.Upgrade,Upgrade
+@UI.UpgradeAll,Upgrade/Switch All
+@UI.UpgradeMax,Level Max
+@UI.RequireExp,Next Level
+@UI.BattleWin,Victory
+@UI.StageComplete,Level {0} difficulty {1} has been completed!
+@UI.BattleFail,Fail
+@UI.Next,Continue
+@UI.Restart,Retry
+@UI.Leave,Leave
+@UI.Revive,Revive
+@UI.DoubleReward,Double
+@UI.Buy,Buy
+@UI.ChooseHero,Choose Hero
+@UI.UnlockInLv3,Unlock In LV3
+@UI.UnlockInLv5,Unlock In LV5
+@UI.BasePara,Basic Attributes
+@UI.HeroTalent,Talent
+@UI.HeroSkill,Skill
+@UI.InBattle,In Battle
+@UI.NotOwn,Locked
+@UI.LoadGame,Load Game
+@UI.HasLoadGame,There's the record of the last game, do you want to continue?
+@UI.Load,Load
+@UI.UnknowBuild,Mysterious Tower
+@UI.UnknowHero,Mysterious Hero
+@UI.SomeDiamond,Diamond×200
+@UI.SomeMetal,Metal×50
+@UI.ShopBuyBuild,Do you want to purchase the Mysterious Tower?
+@UI.ShopBuyHero,Do you want to purchase the Mysterious Hero?
+@UI.StageLose,We lost our base, current wave {0}/{1}
+@UI.StageLoseSurvive,Mission over, waves pass {0}
+@UI.NewRecord,New Record!
+@UI.NoCoin,Your coins are not enough
+@UI.NoSilicon,Insufficient chip components
+@UI.NoMetal,Insufficient steel
+@UI.NoGem,Insufficient diamonds
+@UI.TeamFull,The team is full
+@UI.AlreadyOccupied,This location is already occupied
+@UI.CanNotBuild,Cannot be placed here
+@UI.TargetPreferClose,Target: Close
+@UI.TargetPreferStrong,Target: Strong
+@UI.TargetPreferWeak,Target: Weak
+@UI.TargetPreferFar,Target: Far
+@UI.RotatePreferDL,Face: Bottom left
+@UI.RotatePreferUL,Face: Top left
+@UI.RotatePreferUR,Face: Top right
+@UI.RotatePreferDR,Face: Bottom right
+@UI.OccupyProgress,Occupying Progress
+@UI.ChipNotMatch,Chip not applicable
+@UI.Tech,Technological evolution
+@UI.ChipUpgrade, (Upgrade)
+@UI.Reroll,Reroll
+@UI.ShowPanel,Show
+@UI.HidePanel,Hide
+@UI.ChooseTechBuild,Obtain building combinations
+@UI.ChooseTechChip,Buy chip upgrade
+@UI.TechChipDesc,{0} Obtained: \n {1}
+@UI.ChooseMovePos,Click on the target point you want to go to
+@UI.HeroCantMove,Cannot move here
+@UI.MonsterDetail,Enemy Intelligence
+@UI.SkillChooseAny,Select a skill target point
+@UI.SkillChooseGround,Select an open space as the skill target point
+@UI.SkillChooseAllies,Choose a friendly army as the skill target
+@UI.CantCastSkill,Cannot be released here
+@UI.MoveHeroNearBy,Hero approaches to occupy, new abilities can be unlocked
+@UI.OK,Confirm
+@UI.Cancel,Cancel
+@UI.Move,Move
+@UI.IKnow,Got it
+@UI.Tips,Tips
+@UI.HP,HP
+@UI.AttackXFireSpeed,Attack * Attack speed
+@UI.Range,Attack range
+@UI.MoneyRate,Product speed
+@UI.NewBuild,Unlock Defense Tower
+@UI.NewHero,Unlock New Hero
+@UI.VersionInfo,Game Version：0.7.6\nFeedback: komorebi-studio@qq.com
+@UI.VersionDetail,[Version 0.7.6 Update Content] \n\n · Added a new neutral building [Ancient Stele], which can receive global bonuses when occupied by heroes. \n\n · Added a difficult map [Ritual Altar], using knowledge of ancient civilization to resist the swarming evil creatures. \n\n · The healing halo (Lunar Pillar/Sunflower) has been adjusted from health bonus to attack power bonus; The upper limit of damage reduction is 90%; The second architectural selection in evolutionary mode always leads to the emergence of high-end buildings now; The boost effect of the acoustic tower's boost chip on attack speed has been strengthened;
+@Achieve.FinishGuide,Newcomer
+@Achieve.FinishGuide_Desc,Complete tutorial
+@Achieve.WinHard5,Stand Out
+@Achieve.WinHard5_Desc,Win difficulty 3
+@Achieve.WinGacha,Improvise
+@Achieve.WinGacha_Desc,Win in evolution mode
+@Achieve.Chip,High Tech
+@Achieve.Chip_Desc,Setup one chip in a tower
+@Achieve.KillMonster,Hunter
+@Achieve.KillMonster_Desc,Kill {0} monsters
+@Achieve.HeroKillMonster,Heroism
+@Achieve.HeroKillMonster_Desc,Heroes kill {0} monsters
+@Achieve.VeryRich,Big Rich
+@Achieve.VeryRich_Desc,Own {0} money in battle
+@Achieve.NoBuildLose,Guardian
+@Achieve.NoBuildLose_Desc,Win difficulty 3 without losing buildings
+@Achieve.WinAllStage,Sweep away
+@Achieve.WinAllStage_Desc,Complete all battle maps
+@Achieve.WinAllHard5,Invincible
+@Achieve.WinAllHard5_Desc,Complete all difficulty 3 battle maps
+@Achieve.GameFail,Impermanent
+@Achieve.GameFail_Desc,Game failed {0} times
+@Achieve.Revive,Perseverant
+@Achieve.Revive_Desc,Retry {0} times after failure
+@Achieve.UnlockTower,Big Collector
+@Achieve.UnlockTower_Desc,Own {0} types of defense towers
+@Achieve.UnlockHero,People's Aspirations
+@Achieve.UnlockHero_Desc,Own {0} heroes
+@Achieve.WinOnly1Build,Elite Troops
+@Achieve.WinOnly1Build_Desc,Win with only one type of tower
+@Achieve.AllAchievement,Perfectionism
+@Achieve.AllAchievement_Desc,Complete all other achievements
+@Achieve.Builder,Building Master
+@Achieve.Builder_Desc,Build {0} towers
+@Achieve.UpgradeTower,Great Wall
+@Achieve.UpgradeTower_Desc,Own {0} max level towers at the same time
+@Guide.G0,Building a mine on ore can continuously generate money
+@Guide.G1,Monsters are attacking, building defense towers to resist them
+@Guide.G2,Choosing a building to upgrade can enhance its various attributes
+@Guide.G3,Ordinary defense towers cannot attack flying enemies. Build an anti-aircraft missile to eliminate it
+@Guide.G4,Summon a hero to fight for you, he can obtain experience points and upgrade by eliminating enemies
+@Guide.G5,Select a hero and click the move button to assign her to other locations on the battlefield for support
+@Guide.G6,Select a hero and click the skill button to pour bullets at the enemies
+@ShortKey.OpenMenu,Open Menu
+@ShortKey.Fast,Faster
+@ShortKey.Pause,Pause
+@ShortKey.SelectBuild,Select build
+@ShortKey.UpgradeAll,Upgrade same buildings
+@ShortKey.ChooseHero,Select hero
+@ShortKey.CastSkill,Cast skill
+@ShortKey.MoveHero,Move hero
+@ShortKey.SellBuild,Sell building
+@Chapter.C01,Beginner Tutorial
+@Chapter.C02,Easy Campaign
+@Chapter.C03,Nomal Campaign
+@Chapter.C04,Difficult Campaign
+@Stage.S01,Training Base
+@Stage.S02,Frontline Operations
+@Stage.S03,The Besieged Outpost
+@Stage.S04,Siltation River
+@Stage.S05,Elite Duel
+@Stage.S06,Bled Island
+@Stage.S07,Maze Game
+@Stage.S08,Monster Garden
+@Stage.S09,The Underbog
+@Stage.S10,The Invincible Sword
+@Stage.S11,Oasis
+@Stage.S12,Sandy Ruins
+@Stage.S13,Storm Approaching
+@Stage.S14,Misty Mystery
+@Stage.S15,Northern Outpost
+@Stage.S16,Lost Throne
+@Stage.S17,Cold Canyon
+@Stage.S18,Polar Night
+@Stage.S19,Endless Sand Sea
+@Stage.S20,Blue Star Bay
+@Stage.S21,Commander's Training Ground
+@Stage.S22,Volcano Crater
+@Stage.S23,City of Ashes
+@Stage.S24,Mirkwood
+@Stage.S25,Jungle Temple
+@Stage.S26,Ritual Altar

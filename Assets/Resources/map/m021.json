@@ -1,0 +1,562 @@
+{
+	"map": [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 0, 11, 11, 11, 11, 11, 11, 0, 0, 5, 5, 0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 5, 5, 0, 0, 10, 10, 10, 10, 10, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+	"objs": [{
+		"x": 6,
+		"y": 18,
+		"id": 1
+	}, {
+		"x": 8,
+		"y": 17,
+		"id": 3
+	}, {
+		"x": 10,
+		"y": 17,
+		"id": 3
+	}, {
+		"x": 12,
+		"y": 17,
+		"id": 3
+	}, {
+		"x": 8,
+		"y": 19,
+		"id": 3
+	}, {
+		"x": 4,
+		"y": 19,
+		"id": 3
+	}, {
+		"x": 4,
+		"y": 17,
+		"id": 3
+	}, {
+		"x": 2,
+		"y": 17,
+		"id": 3
+	}, {
+		"x": 5,
+		"y": 19,
+		"id": 4
+	}, {
+		"x": 7,
+		"y": 19,
+		"id": 4
+	}, {
+		"x": 9,
+		"y": 17,
+		"id": 4
+	}, {
+		"x": 11,
+		"y": 17,
+		"id": 4
+	}, {
+		"x": 3,
+		"y": 17,
+		"id": 4
+	}, {
+		"x": 1,
+		"y": 17,
+		"id": 4
+	}, {
+		"x": 4,
+		"y": 18,
+		"id": 5
+	}, {
+		"x": 8,
+		"y": 18,
+		"id": 5
+	}, {
+		"x": 6,
+		"y": 19,
+		"id": 3
+	}, {
+		"x": 9,
+		"y": 18,
+		"id": 2
+	}, {
+		"x": 10,
+		"y": 19,
+		"id": 2
+	}, {
+		"x": 11,
+		"y": 18,
+		"id": 2
+	}, {
+		"x": 3,
+		"y": 18,
+		"id": 2
+	}, {
+		"x": 2,
+		"y": 19,
+		"id": 2
+	}, {
+		"x": 1,
+		"y": 18,
+		"id": 2
+	}, {
+		"x": 0,
+		"y": 17,
+		"id": 3
+	}, {
+		"x": 2,
+		"y": 18,
+		"id": 29
+	}, {
+		"x": 10,
+		"y": 18,
+		"id": 29
+	}, {
+		"x": 12,
+		"y": 19,
+		"id": 29
+	}, {
+		"x": 0,
+		"y": 19,
+		"id": 29
+	}, {
+		"x": 3,
+		"y": 7,
+		"id": 14
+	}, {
+		"x": 9,
+		"y": 7,
+		"id": 14
+	}, {
+		"x": 10,
+		"y": 6,
+		"id": 12
+	}, {
+		"x": 2,
+		"y": 6,
+		"id": 12
+	}, {
+		"x": 6,
+		"y": 0,
+		"id": 28
+	}],
+	"wave": 20,
+	"width": 13,
+	"height": 20,
+	"exStartCoin": 200,
+	"waveSecondOffset": 25,
+	"style": "Snow",
+	"fog": false,
+	"monGens": [{
+		"x":2,
+		"y":0,
+		"wave": 1,
+		"monsters": ["Snakelet"],
+		"repeat": 5,
+		"deltaTime": 1000,
+		"delayTime": 2000
+	},{
+		"x":10,
+		"y":0,
+		"wave": 1,
+		"monsters": ["Snakelet"],
+		"repeat": 5,
+		"deltaTime": 1000,
+		"delayTime": 2000
+	},{
+		"x":2,
+		"y":0,
+		"wave": 2,
+		"monsters": ["Shell"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"x":10,
+		"y":0,
+		"wave": 2,
+		"monsters": ["WolfPup"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"randomEdge":4,
+		"wave": 3,
+		"monsters": ["Bat"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"x":10,
+		"y":0,
+		"wave": 3,
+		"monsters": ["Shell"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"x":2,
+		"y":0,
+		"wave": 3,
+		"monsters": ["Shell"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"x":3,
+		"y":0,
+		"wave": 4,
+		"monsters": ["WolfPup"],
+		"repeat": 24,
+		"deltaTime": 400
+	},{
+		"x":9,
+		"y":0,
+		"wave": 4,
+		"monsters": ["WolfPup"],
+		"repeat": 24,
+		"deltaTime": 400
+	},{
+		"randomEdge":4,
+		"wave": 5,
+		"monsters": ["Bat"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"randomEdge":4,
+		"wave": 5,
+		"monsters": ["Bat"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"randomEdge":4,
+		"wave": 5,
+		"monsters": ["Wolf","WolfPup","WolfPup"],
+		"repeat": 5,
+		"deltaTime": 500
+	},{
+		"randomEdge":4,
+		"wave": 5,
+		"monsters": ["Wolf","WolfPup","WolfPup"],
+		"repeat": 5,
+		"deltaTime": 500
+	},{
+		"randomEdge":4,
+		"wave": 6,
+		"monsters": ["SnowBomb"],
+		"repeat": 16,
+		"deltaTime": 600
+	},{
+		"randomEdge":4,
+		"wave": 6,
+		"monsters": ["SnowBomb"],
+		"repeat": 16,
+		"deltaTime": 600
+	},{
+		"x":9,
+		"y":0,
+		"wave": 6,
+		"monsters": ["Wolf","WolfPup","Bat"],
+		"repeat": 5,
+		"deltaTime": 500
+	},{
+		"x":3,
+		"y":0,
+		"wave": 6,
+		"monsters": ["Wolf","WolfPup","WolfPup"],
+		"repeat": 5,
+		"deltaTime": 500
+	},{
+		"x":9,
+		"y":0,
+		"wave": 7,
+		"monsters": ["Dragon"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"randomEdge":4,
+		"wave": 7,
+		"monsters": ["SnowBomb"],
+		"repeat": 16,
+		"deltaTime": 500
+	},{
+		"x":3,
+		"y":0,
+		"wave": 7,
+		"monsters": ["Shade","Shell","Shell"],
+		"repeat": 5,
+		"deltaTime": 600
+	},{
+		"randomEdge":4,
+		"wave": 8,
+		"monsters": ["Bat"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"x":9,
+		"y":0,
+		"wave": 8,
+		"monsters": ["Phantom"],
+		"repeat": 4,
+		"deltaTime": 2000
+	},{
+		"x":3,
+		"y":0,
+		"wave": 8,
+		"monsters": ["Golem"],
+		"repeat": 2,
+		"deltaTime": 4000,
+		"delayTime": 2000
+	},{
+		"x":10,
+		"y":0,
+		"wave": 9,
+		"monsters": ["Bat"],
+		"repeat": 18,
+		"deltaTime": 500
+	},{
+		"x":2,
+		"y":0,
+		"wave": 9,
+		"monsters": ["Bat"],
+		"repeat": 10,
+		"deltaTime": 900
+	},{
+		"x":9,
+		"y":0,
+		"wave": 9,
+		"monsters": ["Phantom"],
+		"repeat": 4,
+		"deltaTime": 2000
+	},{
+		"x":3,
+		"y":0,
+		"wave": 9,
+		"monsters": ["Shade"],
+		"repeat": 9,
+		"deltaTime": 1000
+	},{
+		"x":9,
+		"y":0,
+		"wave": 10,
+		"monsters": ["Bat"],
+		"repeat": 25,
+		"deltaTime": 200,
+		"delayTime": 2000
+	},{
+		"x":3,
+		"y":0,
+		"wave": 10,
+		"monsters": ["Bat"],
+		"repeat": 25,
+		"deltaTime": 200,
+		"delayTime": 2000
+	},{
+		"x":2,
+		"y":0,
+		"wave": 10,
+		"monsters": ["WolfPup"],
+		"repeat": 32,
+		"deltaTime": 100
+	},{
+		"x":10,
+		"y":0,
+		"wave": 10,
+		"monsters": ["WolfPup"],
+		"repeat": 32,
+		"deltaTime": 100
+	},{
+		"x":10,
+		"y":0,
+		"wave": 11,
+		"monsters": ["Dragon"],
+		"repeat": 18,
+		"deltaTime": 500
+	},{
+		"x":2,
+		"y":0,
+		"wave": 11,
+		"monsters": ["Bat"],
+		"repeat": 10,
+		"deltaTime": 900
+	},{
+		"x":9,
+		"y":0,
+		"wave": 11,
+		"monsters": ["Wolf","WolfPup","WolfPup"],
+		"repeat": 9,
+		"deltaTime": 300
+	},{
+		"x":3,
+		"y":0,
+		"wave": 11,
+		"monsters": ["Wolf","WolfPup","WolfPup"],
+		"repeat": 9,
+		"deltaTime": 300
+	},{
+		"x":10,
+		"y":0,
+		"wave": 12,
+		"monsters": ["Phantom"],
+		"repeat": 10,
+		"deltaTime": 900
+	},{
+		"x":2,
+		"y":0,
+		"wave": 12,
+		"monsters": ["SunBlossom","SnowBomb"],
+		"repeat": 10,
+		"deltaTime": 900
+	},{
+		"x":9,
+		"y":0,
+		"wave": 12,
+		"monsters": ["SunBlossom","Shade"],
+		"repeat": 9,
+		"deltaTime": 300
+	},{
+		"x":3,
+		"y":0,
+		"wave": 12,
+		"monsters": ["Wolf","WolfPup","WolfPup"],
+		"repeat": 5,
+		"deltaTime": 600
+	},{
+		"x":10,
+		"y":0,
+		"wave": 13,
+		"monsters": ["Shade","Bat"],
+		"repeat": 20,
+		"deltaTime": 900
+	},{
+		"x":2,
+		"y":0,
+		"wave": 13,
+		"monsters": ["Shade","Bat"],
+		"repeat": 20,
+		"deltaTime": 900
+	},{
+		"randomEdge":4,
+		"wave": 13,
+		"monsters": ["ShadowGuard"],
+		"repeat": 1,
+		"deltaTime": 3000,
+		"isBoss":true
+	},{
+		"x":10,
+		"y":0,
+		"wave": 14,
+		"monsters": ["Dragon"],
+		"repeat": 18,
+		"deltaTime": 500
+	},{
+		"x":2,
+		"y":0,
+		"wave": 14,
+		"monsters": ["Golem"],
+		"repeat": 3,
+		"deltaTime": 2000
+	},{
+		"x":10,
+		"y":0,
+		"wave": 15,
+		"monsters": ["Phantom"],
+		"repeat": 18,
+		"deltaTime": 500
+	},{
+		"x":2,
+		"y":0,
+		"wave": 15,
+		"monsters": ["Shade"],
+		"repeat": 10,
+		"deltaTime": 900
+	},{
+		"x":9,
+		"y":0,
+		"wave": 15,
+		"monsters": ["SnowBomb"],
+		"repeat": 30,
+		"deltaTime": 300
+	},{
+		"x":3,
+		"y":0,
+		"wave": 15,
+		"monsters": ["Golem","Bat","Bat"],
+		"repeat": 4,
+		"deltaTime": 600
+	},{
+		"x":10,
+		"y":0,
+		"wave": 16,
+		"monsters": ["WolfPup","Bat"],
+		"repeat": 40,
+		"deltaTime": 300
+	},{
+		"x":2,
+		"y":0,
+		"wave": 16,
+		"monsters": ["WolfPup","SnowBomb"],
+		"repeat": 40,
+		"deltaTime": 300
+	},{
+		"randomEdge":4,
+		"wave": 16,
+		"monsters": ["Werewolf"],
+		"repeat": 1,
+		"deltaTime": 3000,
+		"isBoss":true
+	},{
+		"x":10,
+		"y":0,
+		"wave": 17,
+		"monsters": ["Golem","Dragon"],
+		"repeat": 5,
+		"deltaTime": 900
+	},{
+		"x":2,
+		"y":0,
+		"wave": 17,
+		"monsters": ["Golem","Dragon"],
+		"repeat": 5,
+		"deltaTime": 900
+	},{
+		"x":10,
+		"y":0,
+		"wave": 18,
+		"monsters": ["Shade","Bat"],
+		"repeat": 30,
+		"deltaTime": 150
+	},{
+		"x":2,
+		"y":0,
+		"wave": 18,
+		"monsters": ["Shade","Bat"],
+		"repeat": 30,
+		"deltaTime": 150
+	},{
+		"x":10,
+		"y":0,
+		"wave": 19,
+		"monsters": ["Phantom"],
+		"repeat": 30,
+		"deltaTime": 150
+	},{
+		"x":2,
+		"y":0,
+		"wave": 19,
+		"monsters": ["Golem"],
+		"repeat": 12,
+		"deltaTime": 600
+	},{
+		"x":10,
+		"y":0,
+		"wave": 20,
+		"monsters": ["SunBlossom","Dragon"],
+		"repeat": 30,
+		"deltaTime": 600
+	},{
+		"x":2,
+		"y":0,
+		"wave": 20,
+		"monsters": ["Golem","SnowBomb"],
+		"repeat": 30,
+		"deltaTime": 600
+	},{
+		"randomEdge":4,
+		"wave": 20,
+		"monsters": ["GiantDragon"],
+		"repeat": 1,
+		"deltaTime": 3000,
+		"isBoss":true
+	}],
+	"tags": [],
+	"negativeTags": ["Naval"]
+}

@@ -1,0 +1,664 @@
+{
+	"map": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 13, 13, 13, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 13, 13, 13, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 13, 13, 13, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1],
+	"objs": [{
+		"x": 10,
+		"y": 10,
+		"id": 1
+	}, {
+		"x": 10,
+		"y": 13,
+		"id": 2
+	}, {
+		"x": 13,
+		"y": 10,
+		"id": 2
+	}, {
+		"x": 7,
+		"y": 10,
+		"id": 2
+	}, {
+		"x": 10,
+		"y": 7,
+		"id": 2
+	}, {
+		"x": 14,
+		"y": 14,
+		"id": 2
+	}, {
+		"x": 14,
+		"y": 6,
+		"id": 2
+	}, {
+		"x": 6,
+		"y": 14,
+		"id": 2
+	}, {
+		"x": 6,
+		"y": 6,
+		"id": 2
+	}, {
+		"x": 18,
+		"y": 18,
+		"id": 19
+	}, {
+		"x": 19,
+		"y": 9,
+		"id": 20
+	}, {
+		"x": 19,
+		"y": 16,
+		"id": 19
+	}, {
+		"x": 1,
+		"y": 17,
+		"id": 20
+	}, {
+		"x": 3,
+		"y": 2,
+		"id": 19
+	}, {
+		"x": 1,
+		"y": 4,
+		"id": 20
+	}, {
+		"x": 18,
+		"y": 7,
+		"id": 10
+	}, {
+		"x": 5,
+		"y": 19,
+		"id": 9
+	}, {
+		"x": 14,
+		"y": 18,
+		"id": 9
+	}, {
+		"x": 8,
+		"y": 2,
+		"id": 10
+	}, {
+		"x": 19,
+		"y": 2,
+		"id": 21
+	}, {
+		"x": 19,
+		"y": 3,
+		"id": 22
+	}, {
+		"x": 9,
+		"y": 19,
+		"id": 10
+	}, {
+		"x": 2,
+		"y": 19,
+		"id": 19
+	}, {
+		"x": 19,
+		"y": 19,
+		"id": 21
+	}, {
+		"x": 2,
+		"y": 1,
+		"id": 9
+	}, {
+		"x": 2,
+		"y": 13,
+		"id": 9
+	}, {
+		"x": 1,
+		"y": 8,
+		"id": 9
+	}, {
+		"x": 14,
+		"y": 2,
+		"id": 10
+	}, {
+		"x": 11,
+		"y": 9,
+		"id": 6
+	}, {
+		"x": 11,
+		"y": 11,
+		"id": 6
+	}, {
+		"x": 9,
+		"y": 11,
+		"id": 6
+	}, {
+		"x": 9,
+		"y": 9,
+		"id": 6
+	}, {
+		"x": 11,
+		"y": 10,
+		"id": 8
+	}, {
+		"x": 9,
+		"y": 10,
+		"id": 8
+	}, {
+		"x": 10,
+		"y": 9,
+		"id": 7
+	}],
+	"wave": 12,
+	"width": 21,
+	"height": 21,
+	"exStartCoin": 100,
+	"waveSecondOffset": 10,
+	"style": "Sand",
+	"fog": false,
+	"monGens": [{
+		"randomEdge":1,
+		"wave": 1,
+		"monsters": ["Snakelet"],
+		"deltaTime": 1600,
+		"repeat": 5
+	},{
+		"randomEdge":1,
+		"wave": 1,
+		"monsters": ["Snakelet"],
+		"deltaTime": 1600,
+		"delayTime": 300,
+		"repeat": 5
+	},{
+		"randomEdge":1,
+		"wave": 1,
+		"monsters": ["Snakelet"],
+		"deltaTime": 1600,
+		"delayTime": 300,
+		"repeat": 5
+	},{
+		"randomEdge":1,
+		"wave": 2,
+		"monsters": ["Snakelet"],
+		"deltaTime": 1200,
+		"repeat": 6
+	},{
+		"randomEdge":1,
+		"wave": 2,
+		"monsters": ["Snakelet"],
+		"deltaTime": 1200,
+		"repeat": 6
+	},{
+		"randomEdge":1,
+		"wave": 2,
+		"monsters": ["Scorpling"],
+		"deltaTime": 1600,
+		"delayTime": 300,
+		"repeat": 5
+	},{
+		"randomEdge":1,
+		"wave": 2,
+		"monsters": ["Scorpling"],
+		"deltaTime": 1600,
+		"delayTime": 300,
+		"repeat": 5
+	},{
+		"randomEdge":1,
+		"wave": 3,
+		"monsters": ["Snakelet"],
+		"deltaTime": 800,
+		"repeat": 9
+	},{
+		"randomEdge":1,
+		"wave": 3,
+		"monsters": ["Snakelet"],
+		"deltaTime": 800,
+		"delayTime": 200,
+		"repeat": 9
+	},{
+		"randomEdge":1,
+		"wave": 3,
+		"monsters": ["Snakelet"],
+		"deltaTime": 800,
+		"delayTime": 400,
+		"repeat": 9
+	},{
+		"randomEdge":3,
+		"wave": 3,
+		"monsters": ["Bat"],
+		"deltaTime": 1600,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":4,
+		"wave": 3,
+		"monsters": ["Bat"],
+		"deltaTime": 1600,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 3,
+		"monsters": ["Bat"],
+		"deltaTime": 1600,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":1,
+		"wave": 4,
+		"monsters": ["Scorpling"],
+		"deltaTime": 1200,
+		"repeat": 6
+	},{
+		"randomEdge":1,
+		"wave": 4,
+		"monsters": ["Cactus"],
+		"deltaTime": 2500,
+		"delayTime": 100,
+		"repeat": 4
+	},{
+		"randomEdge":1,
+		"wave": 4,
+		"monsters": ["Cactus"],
+		"deltaTime": 2500,
+		"delayTime": 100,
+		"repeat": 4
+	},{
+		"randomEdge":1,
+		"wave": 4,
+		"monsters": ["Scorpling"],
+		"deltaTime": 1200,
+		"delayTime": 300,
+		"repeat": 6
+	},{
+		"randomEdge":2,
+		"wave": 5,
+		"monsters": ["Snakelet","Snakelet","Snake","Snake"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":3,
+		"wave": 5,
+		"monsters": ["Snakelet","Snakelet","Snakelet","Bat"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":4,
+		"wave": 5,
+		"monsters": ["Snakelet","Snakelet","Snakelet","Bat"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":5,
+		"wave": 5,
+		"monsters": ["Snakelet","Snakelet","Snakelet","Bat"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":2,
+		"wave": 6,
+		"monsters": ["Cactus","Shade"],
+		"deltaTime": 800,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":2,
+		"wave": 6,
+		"monsters": ["Cactus","Shade"],
+		"deltaTime": 800,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":3,
+		"wave": 6,
+		"monsters": ["Snakelet","Snakelet","Snakelet","Snake"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":5,
+		"wave": 6,
+		"monsters": ["Snakelet","Snakelet","Snakelet","Snake"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":2,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":3,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":4,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":5,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":2,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":3,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":4,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":5,
+		"wave": 8,
+		"monsters": ["Scorpling"],
+		"deltaTime": 400,
+		"delayTime": 300,
+		"repeat": 18
+	},{
+		"randomEdge":2,
+		"wave": 7,
+		"monsters": ["Cactus","Snake","Snake"],
+		"deltaTime": 500,
+		"delayTime": 300,
+		"repeat": 5
+	},{
+		"randomEdge":2,
+		"wave": 7,
+		"monsters": ["Cactus","Snake","Snake"],
+		"deltaTime": 500,
+		"delayTime": 300,
+		"repeat": 5
+	},{
+		"randomEdge":2,
+		"wave": 7,
+		"monsters": ["Cactus","Snake","Snake"],
+		"deltaTime": 500,
+		"delayTime": 300,
+		"repeat": 5
+	},{
+		"randomEdge":3,
+		"wave": 7,
+		"monsters": ["Snake","Snakelet","Snakelet","Vampire"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":4,
+		"wave": 7,
+		"monsters": ["Snake","Snakelet","Snakelet","Vampire"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":5,
+		"wave": 7,
+		"monsters": ["Snake","Snakelet","Snakelet","Vampire"],
+		"deltaTime": 300,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":2,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":2,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":3,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":3,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":4,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":4,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 9,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 700,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":2,
+		"wave": 10,
+		"monsters": ["Golem","Shade","Shade"],
+		"deltaTime": 1000,
+		"delayTime": 50,
+		"repeat": 2
+	},{
+		"randomEdge":2,
+		"wave": 10,
+		"monsters": ["Golem","Shade","Shade"],
+		"deltaTime": 1000,
+		"delayTime": 50,
+		"repeat": 2
+	},{
+		"randomEdge":3,
+		"wave": 10,
+		"monsters": ["Snakelet","Snakelet","Bat","Snake"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":4,
+		"wave": 10,
+		"monsters": ["Snakelet","Snakelet","Bat","Snake"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 10,
+		"monsters": ["Snakelet","Snakelet","Bat","Snake"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":3,
+		"wave": 10,
+		"monsters": ["Snakelet","Snakelet","Bat","Snake"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":4,
+		"wave": 10,
+		"monsters": ["Snakelet","Snakelet","Bat","Snake"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 10,
+		"monsters": ["Snakelet","Snakelet","Bat","Snake"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":2,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":2,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":3,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":3,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":4,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":4,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 11,
+		"monsters": ["Cactus","Snake","Snake","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"x":14,
+		"y":20,
+		"wave": 12,
+		"monsters": ["Golem","Cactus","Cactus"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"x":6,
+		"y":20,
+		"wave": 12,
+		"monsters": ["Golem","Cactus","Cactus"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 5
+	},{
+		"randomEdge":5,
+		"wave": 12,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":5,
+		"wave": 12,
+		"monsters": ["Shade","Snake","Snake","Bat","Bat"],
+		"deltaTime": 200,
+		"delayTime": 50,
+		"repeat": 8
+	},{
+		"randomEdge":4,
+		"wave": 12,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":4,
+		"wave": 12,
+		"monsters": ["Shade","Snakelet","Snakelet","Bat","Bat"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":3,
+		"wave": 12,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"randomEdge":3,
+		"wave": 12,
+		"monsters": ["Shade","Snakelet","Snakelet","Bat","Bat"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"x":20,
+		"y":20,
+		"wave": 12,
+		"monsters": ["Cactus","Scorpling","Vampire"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 6
+	},{
+		"x":0,
+		"y":20,
+		"wave": 12,
+		"monsters": ["Shade","Snakelet","Snakelet","Bat","Bat"],
+		"deltaTime": 400,
+		"delayTime": 50,
+		"repeat": 6
+	}],
+	"tags": [],
+	"negativeTags": ["Naval"]
+}
